@@ -35,16 +35,16 @@ const Navbar = () => {
         <ul className={`hidden md:flex item-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"} `} >
           <li><a href='#top'>Home</a></li>
           <li><a href='#about'>About</a></li>
-          <li><a href='#service'>Services</a></li>
-          <li><a href='#work'>Work</a></li>
+          {/* <li><a href='#service'>Services</a></li>
+          <li><a href='#work'>Work</a></li> */}
           <li><a href='#contact'>Contact me</a></li>
 
         </ul>
 
         <div className='flex items-center gap-4'>
-          <button >
+          {/* <button >
             <Image src={assets.moon_icon} className='w-6' alt=''/>
-          </button>
+          </button> */}
           <a href='#contact' className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-400 rounded-full ml-4'>Contact <Image src={assets.arrow_icon} alt='' className='w-3' /></a>
           <button className='block md:hidden ml-3' onClick={openSideMenu}>
             <Image src={assets.menu_black} className='w-6' alt=''/>
@@ -60,8 +60,8 @@ const Navbar = () => {
 
           <li><a href='#top' onClick={closeSideMenu}>Home</a></li>
           <li><a href='#about' onClick={closeSideMenu}>About</a></li>
-          <li><a href='#service' onClick={closeSideMenu}> Services</a></li>
-          <li><a href='#work' onClick={closeSideMenu}>Work</a></li>
+          {/* <li><a href='#service' onClick={closeSideMenu}> Services</a></li>
+          <li><a href='#work' onClick={closeSideMenu}>Work</a></li> */}
           <li><a href='#contact' onClick={closeSideMenu}>Contact me</a></li>
 
         </ul>

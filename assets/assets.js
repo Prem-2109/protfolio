@@ -78,8 +78,8 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'MERN STACK',
+        description: 'Based on mern stack Authentication',
         bgImage: '/work-1.png',
     },
     {
